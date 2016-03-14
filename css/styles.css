@@ -1,0 +1,39 @@
+.pager li .active_link {
+
+background: #000 !important;
+
+}
+body{
+	letter-spacing:-0.02vw; 
+}
+div #postheader{
+	
+	overflow: auto;
+	padding:10px;
+	
+}
+.form-control.pwd {
+
+background: black !important;
+width: 30%;
+
+}
+#comment{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+hr{	
+	margin: 0.8em auto;
+	height:2px;
+	color:darkgray;
+}
+.inline{
+	display:inline;
+}
+.bigger{
+	font-size:130%;
+}
+.right{
+	position:absolute;
+	right:0px;
+}

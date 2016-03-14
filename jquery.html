@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Yep</title>
+<script>
+$(document).ready(function(){
+    $("img").mouseenter(function(){
+        var div = $("img");
+		div.animate({width: '500px'}, "slow");
+    });
+	$("img").mouseleave(function(){
+        var div = $("img");
+		div.animate({width: '300px'}, "slow");
+    });
+
+});
+</script>
+</head>
+<body>
+<img src="images/271404_01.jpg">
+</body>
+</html>
