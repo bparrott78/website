@@ -1,14 +1,18 @@
 <?php
-    $db_host='localhost';
-    $db_user='braeden';
-    $db_pass='ab7Habuk';
-    $db_name='cms';
-    $connection=mysqli_connect($db_host,$db_user,$db_pass,$db_name);
-    if (!$db_connect){
-        echo "cannot connect to database" . mysqli_error($connection);
-    }
+    $db['db_host'] = "localhost";
+    $db['db_user'] = "braeden";
+    $db['db_pass'] = "ab7Habuk";
+    $db['db_name'] = "cms";
 
-	
+foreach($db as $key => $value){
+    define(strtoupper($key), $value);
+}
+
+
+    $connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+        if(!$connection){
+            echo "No Connection to Database";
+        }
 
 
 ?>
