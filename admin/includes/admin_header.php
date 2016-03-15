@@ -2,11 +2,11 @@
 <?php session_start();?>
 <?php include "../includes/db.php"?>
 <?php include "functions.php";?>
-<?php if(isset($_SESSION['user_role'])){
+<?php //if(isset($_SESSION['user_role'])){
 	
-}else{
-	header("location: ../index.php");
-}
+//}else{
+	//header("location: ../index.php");
+//}
 ?>
 <?php
 	$fname=$_SESSION['firstname'];

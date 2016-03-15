@@ -57,7 +57,7 @@ $_SESSION['username'] = $db_username;
 $_SESSION['firstname'] = $db_user_firstname;
 $_SESSION['lastname'] = $db_user_lastname;
 $_SESSION['user_role'] = $db_user_role;
-$_SESSION['u_id']=$db_user_id;
+$_SESSION['u_id']=$db_user
     
     
 
@@ -65,7 +65,7 @@ $_SESSION['u_id']=$db_user_id;
 header("Location: index.php");
 
 } else {
-
+header("Location: ../index.php");
 
 }
 }
