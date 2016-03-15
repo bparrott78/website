@@ -65,7 +65,7 @@ $_SESSION['u_id']=$db_user_id;
 header("Location: index.php");
 
 } else {
-header("Location: ../index.php");
+
 
 }
 }
